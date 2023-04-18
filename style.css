@@ -5,11 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
+section {
     min-height: 100vh;
     width: 100%;
     font-size: 16px;
-    background: #eee;
+    background: #1B0B26;
     color: #777;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     height: 570px;
     overflow: hidden;
     background-color: #fff;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 30px 5px #402255;
     cursor: pointer;
 }
 
@@ -119,13 +119,10 @@ body {
     margin-right: 4px;
 }
 
-.info span {
-    color: #18537a;
-    font-weight: bolder;
-}
 
-.action {
-    color: #fff;
+
+/* .action {
+    color: #e04444;
     border: 3px solid #fff;
     background-color: transparent;
     position: absolute;
@@ -149,6 +146,36 @@ body {
 
 .action:hover {
     background-color: rgba(255, 255, 255, 0.2);
+} */
+.button {
+    background-color: #1B0B26;
+    text-align: center;
+    margin-top: -5px;
+
+}
+
+.action {
+    color: #17537a;
+    border: 3px solid #17537a;
+    background-color: #FEF2F4;
+    outline: none;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 1.5em;
+    box-shadow: 2px 2px 3px 1px #5E3977;
+    transition: 0.5s;
+}
+
+.action:hover {
+    background-color: #e89416;
+    color: #fff;
+
 }
 
 @media only screen and (max-width: 700px) {
